@@ -1,4 +1,0 @@
-API = AIzaSyBGc_ds-mVPl5ct-8n2jIvfLEasAq475NU
-
-Client ID = 858190728554-hrs0o4vottgobjcs50fc4frbbk2k5vtb.apps.googleusercontent.com
-Client secret = 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
