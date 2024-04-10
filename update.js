@@ -2,24 +2,24 @@
   import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-auth.js";
 
 // Developer API for Testing
-// const firebaseConfig = {
-//   apiKey: "AIzaSyCJ64Ot6VaAKMI3k4-K5bZ1k2ZwwLFdp6s",
-//   authDomain: "login-1f0d9.firebaseapp.com",
-//   projectId: "login-1f0d9",
-//   storageBucket: "login-1f0d9.appspot.com",
-//   messagingSenderId: "131592588958",
-//   appId: "1:131592588958:web:3048741b88d4a4a840758f"
-// };
-
 const firebaseConfig = {
-  apiKey: "AIzaSyDu1Qs5MwB74dKLXrUAoAye7aCqplS0dW4",
-  authDomain: "botsaregood-3ac38.firebaseapp.com",
-  projectId: "botsaregood-3ac38",
-  storageBucket: "botsaregood-3ac38.appspot.com",
-  messagingSenderId: "606381998746",
-  appId: "1:606381998746:web:cda09d71f4e13ffaa31523",
-  // measurementId: "G-STFJ9RK5K7",
+  apiKey: "AIzaSyCJ64Ot6VaAKMI3k4-K5bZ1k2ZwwLFdp6s",
+  authDomain: "login-1f0d9.firebaseapp.com",
+  projectId: "login-1f0d9",
+  storageBucket: "login-1f0d9.appspot.com",
+  messagingSenderId: "131592588958",
+  appId: "1:131592588958:web:3048741b88d4a4a840758f"
 };
+
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDu1Qs5MwB74dKLXrUAoAye7aCqplS0dW4",
+//   authDomain: "botsaregood-3ac38.firebaseapp.com",
+//   projectId: "botsaregood-3ac38",
+//   storageBucket: "botsaregood-3ac38.appspot.com",
+//   messagingSenderId: "606381998746",
+//   appId: "1:606381998746:web:cda09d71f4e13ffaa31523",
+//   // measurementId: "G-STFJ9RK5K7",
+// };
 
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
